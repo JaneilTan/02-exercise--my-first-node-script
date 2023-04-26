@@ -12,3 +12,8 @@ const products = [
     price: 149,
   },
 ];
+
+const cheapProducts = products.filter((product) => {
+  return product.price <= 500
+})
+console.log(cheapProducts);
